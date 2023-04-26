@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgb(210, 214, 218);
+    width: 100%;
+    height: 15%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo {
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 2.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.services,
+.CV,
+.register {
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 1.8em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover {
+    color: rgb(115, 133, 253);
+}
+
+section {
+    padding-top: 350px;
+    padding-left: 175px;
+    padding-right: 300px;
+    padding-bottom: 300px;
+}
+
+.main {
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    background: url(image/bg.png)no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.main h2 {
+    color: rgb(3, 0, 6);
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 15px;
+    color: blueviolet;
+    font-size: 2.8em;
+    font-weight: 600s;
+}
+
+.main h3 {
+    color: rgb(0, 0, 0);
+    font-size: 1.8em;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-btn {
+    border-radius: 15px;
+    background-color: blueviolet;
+    color: aliceblue;
+    font-size: 1.3em;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 0.5375em 1.1875em;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.4s ease;
+}
+
+.main-btn:hover {
+    background-color: rgb(174, 91, 251);
+    transform: scale(1.1);
+}
+
+.socialIcons {
+    font-size: 3em;
+    padding-right: 40px;
+    color: rgb(4, 65, 248);
+}
+
+
+.mainForm {
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    background: url(image/bg.png)no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.resetCl {
+    padding: 5px;
+}
+
+.submitCl {
+    padding: 5px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 5em;
+    margin-top: -175px;
+    margin-bottom: 75px;
+    font-weight: 500px;
+    color: blueviolet;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    color: aliceblue;
+    width: 25em;
+    box-shadow: 0 5px 25px rgba(63 0 99/20%);
+    border-radius: 15px;
+    margin: 25px;
+    transition: 0.4s ease;
+}
+
+.imgsiz {
+    width: 350px;
+    display: flex;
+    padding-left: 80px;
+    padding-bottom: 40px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.imgsiz2 {
+    width: 400px;
+    display: flex;
+    padding: 50px;
+}
+
+.support {
+    margin: -100px 0px;
+}
+
+
+.mywork {
+    display: flex;
+    background: url(image/workbg.png)no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    padding-top: 75px;
+    padding-bottom: 100px;
+    overflow: hidden;
+    justify-content: center;
+}
+.projcontent {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: -300px;
+}
+
+.projcard {
+    color: aliceblue;
+    width: 45em;
+    border: 2px;
+    border-radius: 15px;
+    margin: 0 10px 50px 10px;
+    transition: 0.4s ease;
+}
+
+.mediasc {
+    display: flex;
+    padding-left: 3px;
+}
+
+.projcard:hover {
+    transform: scale(1.1);
+}
+.imgdr{
+    width: 1200px ;
+    padding-right: 500px;
+}
+
+.mediasc3{
+    display: flex;
+    padding-left: 50px;
+}
+.titleMedia3{
+    padding-left: 230px;
+
+}
